@@ -26,6 +26,14 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+    button {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+    }
     article {
       max-width: 500px;
       padding: 20px;
@@ -33,12 +41,17 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Performance Tutorials</h1>
     <ul>
       <li><a href="#">Tableau</a></li>
       <li><a href="#">Python</a></li>
+      <div class="search-containeer">
+        <input type="text" placeholder="Search...">
+        <button type="submit"></button>
+      </div>
     </ul>
   </header>
 
@@ -63,4 +76,5 @@
       alert("Clicked!");
     });
   </script>
+
 </body>
